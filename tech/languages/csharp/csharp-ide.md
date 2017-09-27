@@ -36,9 +36,9 @@ $ sudo dnf install monodevelop
 
 ## Eclipse IDE (with plugin)
 
-_Mono only, with upcoming support for .NET Core as well_
+_.NET Core and Mono_
 
-You can get [Eclipse IDE](/tools/eclipse/about.html) with [aCute plugin](https://github.com/mickaelistria/aCute), which relies on [OmniSharp](http://www.omnisharp.net) and [Language Server Protocol](https://github.com/Microsoft/language-server-protocol). Although it's still experimental, this already provides nice edition features for C# in the Eclipse IDE.
+You can use the [aCute plugin](https://marketplace.eclipse.org/content/acute-c-edition-eclipse-ide-experimental) on top of the established and popular [Eclipse IDE](/tools/eclipse/about.html). This C# extension for Eclipse IDE relies on [OmniSharp](http://www.omnisharp.net) and [Language Server Protocol](https://github.com/Microsoft/language-server-protocol). It comes with complete edition features for C# in the Eclipse IDE, comparable to any other IDE. Relying on the Eclipse IDE provides all typical features of a good IDE (Polyglot development, SCM, deployment...) and give access to a rich ecosystem of extensions for about all existing technologies.
 
 ```
 $ sudo dnf install eclipse eclipse-mpc
@@ -47,4 +47,4 @@ then install the aCute extension from [Eclipse Marketplace](https://marketplace.
 
 ## Summary
 
-What would we recommend? JetBrains Rider is the best C# IDE, however it is not open source. VS Code is great for .NET Core and MonoDevelop for Mono. C# in Eclipse IDE is work in progress, and supports only Mono for now; it can already be useful if you're already an user of Eclipse IDE with any other programming language.
+What would we recommend? JetBrains Rider is the best C# IDE, however it is not open source. VS Code is great for .NET Core and MonoDevelop for Mono. C# in Eclipse IDE is good for edition, and takes advantage of all the benefits of the established Eclipse IDE and of its rich ecosystem.
